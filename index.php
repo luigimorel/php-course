@@ -1,16 +1,22 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>PHP</title>
-</head>
-<body>
+  <head>
+    <title>PHP Store</title>
+  </head>
+  <body>
+    <?php
+      $name = "PHP Store";
+      $credit = 1000; 
 
-<?php 
+      echo "<h1>Welcome to ".$name."!</h1>";
+      echo "<h2>You have $".$credit." in your wallet.</h2>";
 
-$name = "Luigi";
-$credit = 1000;
-echo "<h>Welcome to " .$name. " </h1>";
-echo "<p>You have" .$credit " ."       </p>";
- ?>
-</body>
+	    $products['Computer']=750;
+	    $products['Car']=15000;
+	    $products['iPhone']=1000;
+	    $products['Toaster']=75;
+
+	    echo "<p>A car costs $".$products['Car']."</p>";
+    ?>
+  </body>
 </html>
