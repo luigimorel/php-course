@@ -15,7 +15,10 @@
 	    $products['Car']=15000;
 	    $products['iPhone']=1000;
 	    $products['Toaster']=75;
-
+$amount=800;
+$taxRate=0.0825;
+$addedTax= $amount*$taxRate;  //amount = 800, tax = .0825
+echo $addedTax;
 	    foreach($products as $key => $value){
 		    echo "<p>The ".$key." costs ".$value."</p>";
 	    }
