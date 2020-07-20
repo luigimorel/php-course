@@ -6,7 +6,11 @@
 <body>
 
 <?php 
-echo "<h>Welcome to HPH</h1>";
+
+$name = "Luigi";
+$credit = 1000;
+echo "<h>Welcome to " .$name. " </h1>";
+echo "<p>You have" .$credit " ."       </p>";
  ?>
 </body>
 </html>
